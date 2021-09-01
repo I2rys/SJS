@@ -7,6 +7,8 @@ const Self_Args = process.argv.slice(2)
 
 //Main
 if(Self_Args.length == 0){
+    console.log(`node index.js <sjs_file>
+Example: node index.js index.sjs`)
     process.exit()
 }
 
